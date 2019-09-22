@@ -74,7 +74,7 @@ public class bmi {
 		System.out.print("Enter weight (kg): ");
 		weightM = STDIN_SCANNER.nextFloat();
 
-		convertM = (float)(meters / 0.010000); // Convert ft to meter
+		convertM = (float)(meters / 0.010000); // Convert ft to mete
 		cmM = convertM / 100;
 
 
