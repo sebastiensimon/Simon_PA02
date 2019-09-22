@@ -1,0 +1,17 @@
+package adding;
+import java.util.Scanner;
+
+public class sub {
+	public void Substraction() {
+		int x, y, result;
+
+		x = STDIN_SCANNER.nextInt();
+		y = STDIN_SCANNER.nextInt();
+
+		result = x - y;
+
+		System.out.print(result);
+	}
+
+	public final static Scanner STDIN_SCANNER = new Scanner(System.in);
+}

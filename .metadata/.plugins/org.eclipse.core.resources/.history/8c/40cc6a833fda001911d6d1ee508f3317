@@ -1,0 +1,20 @@
+package adding;
+import java.util.Scanner;
+
+ class add {
+	public static void main(String[] args) {
+		sub subObject = new sub();
+		subObject.Substraction();
+		
+		int x, y, result;
+
+		x = STDIN_SCANNER.nextInt();
+		y = STDIN_SCANNER.nextInt();
+
+		result = x + y;
+
+		System.out.print(result);
+	}
+
+	public final static Scanner STDIN_SCANNER = new Scanner(System.in);
+}
