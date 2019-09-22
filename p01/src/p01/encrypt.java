@@ -2,7 +2,7 @@ package p01;
 
 import java.util.Scanner;
 
- class encrypt {
+ public class encrypt {
 
 	public static void main(String[] args) {
 		
@@ -34,7 +34,8 @@ import java.util.Scanner;
 
 		// display the result after swapping the digits
 		System.out.printf("Encrypted integer is: %d%d%d%d\n", digit3, digit4, digit1, digit2);
-
+		decrypt decryptObject = new decrypt();
+		decryptObject.decryptor();
 		in.close();
 	}
 
